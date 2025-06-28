@@ -1,46 +1,46 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // import PriceList from "../../pages/pricelist/PriceList";
 import "./PriceCategory.css"
-// import "./PriceCategory.css"
 
 const pricingPlans = [
+    {
+    title: "Package of 8 workouts",
+    price: "$1100",
+    features: [
+      "Lorem ipsum dolor sit amet", 
+      "Consectetur adipiscing elit", 
+      "Integer diam leo",
+    ],
+    highlighted: true,
+  },
+
   {
     title: "Single training",
     price: "$150",
     features: [
-      "Fusce eu molestie ligula",
-      "Integer metus odio",
-      "Dictum ut tincidunt eget",
+      "Lorem ipsum dolor sit amet", 
+      "Consectetur adipiscing elit", 
+      "Integer diam leo",
     ],
     highlighted: false,
   },
-  {
-    title: "Package of 8 workouts",
-    price: "$1100",
-    features: [
-      "Fusce eu molestie ligula",
-      "Integer metus odio",
-      "Dictum ut tincidunt eget",
-    ],
-    highlighted: true,
-  },
+
   {
     title: "Package of 12 workouts",
     price: "$1500",
     features: [
-      "Fusce eu molestie ligula",
-      "Integer metus odio",
-      "Dictum ut tincidunt eget",
+      "Lorem ipsum dolor sit amet", 
+      "Consectetur adipiscing elit", 
+      "Integer diam leo",
     ],
     highlighted: false,
   },
 ];
 
-const PriceCategory = () => {
+const TrainingPack = () => {
   return (
     <section className="price-section">
-      <h2 className="sec-head">PRICE LIST</h2>
+      <h2 className="sec-head">TRAINING PACKAGES</h2>
       <div className="pricing-container">
 
         {pricingPlans.map((plan, index) => (
@@ -63,12 +63,8 @@ const PriceCategory = () => {
           </div>
         ))}
       </div>
-
-      <Link to="/pricelist">
-        <button className="see-more-btn">SEE MORE</button>
-      </Link>
     </section>
   );
 };
 
-export default PriceCategory;
+export default TrainingPack;
