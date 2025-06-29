@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 // import PriceList from "../../pages/pricelist/PriceList";
 import "./PriceCategory.css"
-// import "./PriceCategory.css"
 
 const pricingPlans = [
   {
@@ -45,21 +44,21 @@ const PriceCategory = () => {
 
         {pricingPlans.map((plan, index) => (
           <div
-                key={index}
-                className={`plan-card ${plan.highlighted ? "highlighted" : ""}`}>
-                <h3>{plan.title}</h3>
-                <p className="price">{plan.price}</p>
+            key={index}
+            className={`plan-card ${plan.highlighted ? "highlighted" : ""}`}>
+            <h3 className="plan-title">{plan.title}</h3>
+            <p className="price">{plan.price}</p>
 
-                <div className="pricing-features">
-                    {plan.features.map((feat, i) => (
-                        <p key={i}>{feat}</p>
-                    ))}
-                </div>
+            <div className="pricing-features">
+                {plan.features.map((feat, i) => (
+                    <p key={i}>{feat}</p>
+                ))}
+            </div>
 
-                <button 
-                    className={`pricing-button ${plan.highlighted ? "primary" : "secondary"}`}>
-                    ADD TO CART
-                </button>
+            <button 
+                className={`pricing-button ${plan.highlighted ? "primary" : "secondary"}`}>
+                ADD TO CART
+            </button>
           </div>
         ))}
       </div>

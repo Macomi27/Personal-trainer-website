@@ -10,7 +10,7 @@ const pricingPlans = [
       "Consectetur adipiscing elit", 
       "Integer diam leo",
     ],
-    highlighted: true,
+    highlighted: false,
   },
 
   {
@@ -21,7 +21,7 @@ const pricingPlans = [
       "Consectetur adipiscing elit", 
       "Integer diam leo",
     ],
-    highlighted: false,
+    highlighted: true,
   },
 
   {
@@ -46,7 +46,7 @@ const DietryConsult = () => {
           <div
                 key={index}
                 className={`plan-card ${plan.highlighted ? "highlighted" : ""}`}>
-                <h3>{plan.title}</h3>
+                <h3 className="plan-title">{plan.title}</h3>
                 <p className="price">{plan.price}</p>
 
                 <div className="pricing-features">
