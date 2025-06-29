@@ -63,3 +63,24 @@ button:hover{
     background-color: var(--secondary);
     cursor: pointer;
 }
+
+@media (max-width: 767px) {
+    .heroSection{
+        height: 100vh;
+    }
+    .heroElements>h2{
+        font-size: 48px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .heroElements>p{
+        font-size: 26px;
+        text-align: center;
+    }
+    .heroElements>button{
+        width: 80%;
+        margin-inline: auto;
+        font-size: 16px;
+        padding-block: 15px;
+    }
+}
