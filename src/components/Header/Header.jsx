@@ -1,6 +1,6 @@
 import React from "react";
 import './Header.css'
-import siteLogo from './assets/logo.png'
+import siteLogo from '../assets/logo.png'
 import { FaCartShopping, FaBars } from "react-icons/fa6";
 
 // let bars = document.getElementById("bars");
