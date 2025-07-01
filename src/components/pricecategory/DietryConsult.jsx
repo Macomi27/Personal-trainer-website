@@ -39,7 +39,10 @@ const pricingPlans = [
 const DietryConsult = () => {
   return (
     <section className="price-section">
-      <h2 className="sec-head">DIETARY CONSULTATION</h2>
+      <div className="section-header-inner">
+        <div className="above-line"></div>
+        <h1 className="sec-head">DIETARY CONSULTATION</h1>
+      </div>
       <div className="pricing-container">
 
         {pricingPlans.map((plan, index) => (

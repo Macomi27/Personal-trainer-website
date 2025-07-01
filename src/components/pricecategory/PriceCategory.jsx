@@ -39,7 +39,11 @@ const pricingPlans = [
 const PriceCategory = () => {
   return (
     <section className="price-section">
-      <h2 className="sec-head">PRICE LIST</h2>
+       <div className="section-header-inner">
+        <div className="above-line"></div>
+        <h1 className="sec-head">PRICE LIST</h1>
+      </div>
+      
       <div className="pricing-container">
 
         {pricingPlans.map((plan, index) => (
@@ -50,14 +54,14 @@ const PriceCategory = () => {
             <p className="price">{plan.price}</p>
 
             <div className="pricing-features">
-                {plan.features.map((feat, i) => (
-                    <p key={i}>{feat}</p>
-                ))}
+              {plan.features.map((feat, i) => (
+                  <p key={i}>{feat}</p>
+              ))}
             </div>
 
             <button 
-                className={`pricing-button ${plan.highlighted ? "primary" : "secondary"}`}>
-                ADD TO CART
+              className={`pricing-button ${plan.highlighted ? "primary" : "secondary"}`}>
+              ADD TO CART
             </button>
           </div>
         ))}

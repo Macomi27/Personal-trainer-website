@@ -40,7 +40,10 @@ const pricingPlans = [
 const TrainingPack = () => {
   return (
     <section className="price-section">
-      <h2 className="sec-head">TRAINING PACKAGES</h2>
+      <div className="section-header-inner">
+        <div className="above-line"></div>
+        <h1 className="sec-head">TRAINING PACKAGES</h1>
+      </div>
       <div className="pricing-container">
 
         {pricingPlans.map((plan, index) => (
