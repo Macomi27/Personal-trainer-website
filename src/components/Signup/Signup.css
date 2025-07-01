@@ -17,7 +17,7 @@
 
 .signup-container{
     width: 100%;
-    height: 500px;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +64,6 @@ form input{
     display: flex;
     flex-direction: column;
     gap: 5px;
-    margin-inline: 20px;
 }
 
 .email{
@@ -104,4 +103,33 @@ input:focus{
 
 .signup-btn button:hover{
     background-color: var(--secondary);
+}
+
+@media (max-width: 767px) {
+    .signup-container{
+        height: 90vh;
+    }
+
+    .signup-content{
+        width: 90%;
+    }
+
+    .signup-content p{
+        font-size: 28px;
+    }
+
+    form input{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    form label{
+        font-size: 20px;
+    }
+
+    .signup-btn{
+        width: 70%;
+        font-size: 20px;
+    }
+    
 }
