@@ -8,6 +8,7 @@ import dcImage from '../assets/DIETARY-CONSULTATION.webp'
 const Offer = () => {
     return(
         <div className="offer-section">
+            <div className="offer-animation"></div>
             <h2>Offer</h2>
             <div className="offer-content">
                 <div className="personal-training">

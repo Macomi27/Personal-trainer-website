@@ -20,6 +20,21 @@
     text-align: center;
 }
 
+.offer-animation{
+    width: 8%;
+    margin-inline: auto;
+    height: 10px;
+    background-color: var(--brand);
+}
+
+.offer-section h2{
+    font-size: 60px;
+    color: var(--userColor_1);
+    font-weight: 300;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
 .offer-content{
     width: 95%;
     margin-inline: auto;
@@ -30,4 +45,23 @@
 
 img{
     width: 100%;
+}
+
+.personal-training h4,
+.online-collab h4,
+.dietary-consultation h4{
+    font-size: 28px;
+    text-transform: capitalize;
+    color: var(--userColor_1);
+    font-weight: 300;
+    margin-block: 20px 25px;
+}
+
+.personal-training p,
+.online-collab p,
+.dietary-consultation p{
+    width: 90%;
+    margin-inline: auto;
+    color: var(--neutral1);
+    font-weight: 300;
 }
