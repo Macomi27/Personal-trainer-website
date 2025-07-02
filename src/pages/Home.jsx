@@ -4,6 +4,7 @@ import Footer from '../components/Footer/Footer.jsx';
 import Hero from '../components/Hero/Hero.jsx';
 import HeroSub from '../components/Hero/HeroSub.jsx';
 import Signup from '../components/Signup/Signup.jsx';
+import Offer from '../components/Offer/Offer.jsx';
 
 const Home = () => {
     return(
@@ -11,6 +12,7 @@ const Home = () => {
             <Header />
             <Hero />
             <HeroSub />
+            <Offer />
             <Signup />
             <Footer />
         </>
