@@ -5,6 +5,7 @@ import Hero from '../components/Hero/Hero.jsx';
 import HeroSub from '../components/Hero/HeroSub.jsx';
 import Signup from '../components/Signup/Signup.jsx';
 import Offer from '../components/Offer/Offer.jsx';
+import Worth from '../components/Worth/Worth.jsx';
 
 const Home = () => {
     return(
@@ -15,6 +16,7 @@ const Home = () => {
             <Offer />
             <Signup />
             <Footer />
+            <Worth />
         </>
     )
 }

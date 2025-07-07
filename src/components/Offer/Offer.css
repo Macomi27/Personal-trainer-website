@@ -43,6 +43,12 @@
     gap: 30px;
 }
 
+.pt-image,
+.oc-image,
+.dc-image{
+    background-image: linear-gradient( to right , rgb(0,0,0,.4), rgb(0,0,0,.4));
+}
+
 img{
     width: 100%;
 }
