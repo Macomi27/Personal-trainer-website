@@ -85,3 +85,31 @@
     font-weight: 300;
     color: var(--neutral1);
 }
+
+@media (max-width:767px) {
+
+    .worth-it-sec{
+        margin-block: 50px 0;
+    }
+
+    .worth-it-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 20% 20% 20% 20% 20%;
+    }
+
+    .worth1{
+        grid-row: 1;
+    }
+    .worth2{
+        grid-row: 2;
+    }
+    .worth3{
+        grid-row: 3;
+    }
+    .worth4{
+        grid-row: 4;
+    }
+    .worth5{
+        grid-row: 5;
+    }
+}
