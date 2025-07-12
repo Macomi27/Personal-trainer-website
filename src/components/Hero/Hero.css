@@ -66,7 +66,7 @@ button:hover{
 
 @media (max-width: 767px) {
     .heroSection{
-        height: 100vh;
+        height: 90vh;
     }
     .heroElements>h2{
         font-size: 48px;

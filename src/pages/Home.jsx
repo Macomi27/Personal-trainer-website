@@ -5,6 +5,7 @@ import Hero from '../components/Hero/Hero.jsx';
 import HeroSub from '../components/Hero/HeroSub.jsx';
 import Signup from '../components/Signup/Signup.jsx';
 import Offer from '../components/Offer/Offer.jsx';
+import Gallery from '../components/Gallery/Gallery.jsx';
 import Worth from '../components/Worth/Worth.jsx';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Hero />
             <HeroSub />
             <Offer />
+            <Gallery />
             <Worth />
             <Signup />
             <Footer />
