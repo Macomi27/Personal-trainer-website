@@ -71,3 +71,21 @@ img:hover{
     grid-row: 2/4;
     grid-column: 1;
 }
+
+
+@media (max-width:767px) {
+    .gallery-sec{
+        margin-block: 50px;
+        padding-block: 50px;
+    }
+
+    .gal-title{
+        margin-bottom: 30px;
+    }
+
+    .gal-animation{
+        width: 20%;
+        height: 15px;
+    }
+
+}
