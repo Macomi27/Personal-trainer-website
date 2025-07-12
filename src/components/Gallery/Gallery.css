@@ -1,0 +1,91 @@
+:root{
+    --secondary: rgb(255, 34, 0);
+    --neutral2: rgb(255, 255, 255);
+    --userColor_1: rgb(5, 5, 5);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.gallery-sec{
+    width: 100%;
+    background-color: var(--userColor_1);
+    margin-block: 100px;
+    padding-block: 80px;
+}
+
+.gal-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.gal-animation{
+    width: 10%;
+    height: 12px;
+    background-color: var(--secondary);
+}
+
+.gal-title >h2{
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 300;
+    color: var(--neutral2);
+}
+
+.gal-grid{
+    width: 95%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.gal-img{
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    transition: transform .3s ease;
+}
+
+img:hover{
+    transform: scale(1.25);
+}
+
+.gal1{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.gal2{
+    grid-row: 2/4;
+    grid-column: 1;
+}
+
+
+@media (max-width:767px) {
+    .gallery-sec{
+        margin-block: 50px;
+        padding-block: 50px;
+    }
+
+    .gal-title{
+        margin-bottom: 30px;
+    }
+
+    .gal-animation{
+        width: 20%;
+        height: 15px;
+    }
+
+}
