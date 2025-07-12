@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../assets/signup.webp');
+    background-image: linear-gradient( to bottom , rgb(0,0,0,.3), rgb(0,0,0,.3)), url('../assets/signup.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
