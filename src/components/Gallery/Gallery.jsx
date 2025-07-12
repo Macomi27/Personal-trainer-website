@@ -14,19 +14,19 @@ const Gallery = () => {
                 <h2>gallery</h2>
             </div>
             <div className="gal-grid">
-                <div className="gal1">
+                <div className="gal1 gal-img">
                     <img src={gal1} alt="" />
                 </div>
-                <div className="gal2">
+                <div className="gal2 gal-img">
                     <img src={gal2} alt="" />
                 </div>
-                <div className="gal3">
+                <div className="gal3 gal-img">
                     <img src={gal3} alt="" />
                 </div>
-                <div className="gal4">
+                <div className="gal4 gal-img">
                     <img src={gal4} alt="" />
                 </div>
-                <div className="gal5">
+                <div className="gal5 gal-img">
                     <img src={gal5} alt="" />
                 </div>
             </div>
