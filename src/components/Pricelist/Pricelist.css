@@ -164,7 +164,6 @@
     .price-list{
         width: 90%;
         grid-template-columns: 1fr;
-        margin-bottom: 20px;
     }
 
     .pricelist-title{
