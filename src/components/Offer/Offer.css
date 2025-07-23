@@ -23,7 +23,7 @@
 .offer-animation{
     width: 8%;
     margin-inline: auto;
-    height: 10px;
+    height: 12px;
     background-color: var(--brand);
 }
 
@@ -79,6 +79,7 @@ img{
 
     .offer-animation{
         width: 25%;
+        height: 15px;
     }
 
     .offer-section h2{
