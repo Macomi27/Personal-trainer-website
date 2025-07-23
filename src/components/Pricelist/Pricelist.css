@@ -102,6 +102,7 @@
     background-color: transparent;
     font-size: 18px;
     font-weight: 300;
+    border-radius: 5px;
 }
 
 .package-8{
@@ -146,10 +147,55 @@
     background-color: transparent;
     font-size: 18px;
     font-weight: 300;
+    border-radius: 5px;
 }
 
 .see-more > button:hover{
     color: var(--userColor_1);
     border-color: var(--userColor_1);
     transition: all .3s ease;
+}
+
+@media (max-width: 767px) {
+    .price-list-sec{
+        margin-block: 50px;
+    }
+
+    .price-list{
+        width: 90%;
+        grid-template-columns: 1fr;
+        margin-bottom: 20px;
+    }
+
+    .pricelist-title{
+        margin-bottom: 20px;
+    }
+
+    .pricelist-animation{
+    width: 30%;
+    height: 15px;
+    background-color: var(--brand);
+    }
+
+    .single-training,
+    .package-8,
+    .package-12{
+        padding-block: 30px;
+        height: 70vh;
+    }
+
+    .single-training button,
+    .package-12 button,
+    .package-8 button{
+        width: 70%;
+        padding-block: 20px;
+    }
+
+    .see-more{
+        width: 60%;
+    }
+
+    .see-more button{
+        padding-block: 20px;
+    }
 }
