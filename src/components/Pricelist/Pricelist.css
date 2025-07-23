@@ -15,7 +15,6 @@
     box-sizing: border-box;
     font-size: 16px;
     font-family: 'Poppins';
-    color: var(--complementary);
 }
 
 .price-list-sec{
@@ -31,7 +30,7 @@
 }
 
 .pricelist-animation{
-    width: 9%;
+    width: 8%;
     height: 12px;
     background-color: var(--brand);
 }
@@ -63,6 +62,12 @@
     gap: 30px;
     height: 90vh;
     border: 1px solid var(--neutral1);
+}
+
+.single-training p,
+.package-12 p,
+.package-8 p{
+    color: var(--complementary);
 }
 
 .single-training p:first-child,

@@ -17,7 +17,7 @@
 
 .worth-it-sec{
     width: 100%;
-    margin-block: 100px;
+    margin-block: 100px 50px;
 }
 
 .worth-it-container{
@@ -60,7 +60,7 @@
 }
 
 .worth-animation{
-    width: 20%;
+    width: 18%;
     height: 12px;
     background-color: var(--brand);
 }
