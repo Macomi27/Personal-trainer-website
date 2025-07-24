@@ -23,7 +23,7 @@
 .offer-animation{
     width: 8%;
     margin-inline: auto;
-    height: 10px;
+    height: 12px;
     background-color: var(--brand);
 }
 
@@ -46,8 +46,15 @@
 .pt-image,
 .oc-image,
 .dc-image{
-    background-image: linear-gradient( to right , rgb(0,0,0,.1), rgb(0,0,0,.1));
+    background-image: linear-gradient( to right , rgb(0,0,0,.1), rgb(0,0,0,.2));
 }
+
+/* .pt-image:hover,
+.oc-image:hover,
+.dc-image:hover{
+    background-image: linear-gradient( to right , rgb(255, 255, 255), rgb(255, 255, 255));
+    transition: background-image 0.3s ease-in-out;
+} */
 
 img{
     width: 100%;
@@ -79,6 +86,7 @@ img{
 
     .offer-animation{
         width: 25%;
+        height: 15px;
     }
 
     .offer-section h2{
